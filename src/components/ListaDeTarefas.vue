@@ -1,8 +1,6 @@
 <script setup>
 const props = defineProps(['tarefasFilts'])
 </script>
-<!-- getTarefasFiltradas() -->
-<!-- evento.target.checked -->
 <template>
     <ul class="list-group mt-4">
         <li class="list-group-item" v-for="tarefa in props.tarefasFilts">
